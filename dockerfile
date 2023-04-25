@@ -11,7 +11,7 @@ COPY . /app
 RUN mkdir -p /app/css/
 
 #copy css file to /app/css
-COPY 123.css /app/css/
+COPY devops.css /app/css/
 
 # Remove the default Nginx configuration file
 RUN rm /etc/nginx/conf.d/default.conf
